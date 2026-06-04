@@ -11,6 +11,7 @@
 ![NodeJS](https://img.shields.io/badge/Node.js-Backend-success)
 
 **Dai Nam University - Information Technology**
+![Poster dự án](Quan.jpg)
 
 </div>
 ---
