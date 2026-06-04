@@ -13,7 +13,6 @@
 **Dai Nam University - Information Technology**
 
 </div>
-
 ---
 
 ## 📖 Giới thiệu
@@ -113,6 +112,7 @@ H --> I[Khách hàng]
 - AI Customer Support
 
 ---
+
 
 ## 👨‍💻 Tác giả
 
