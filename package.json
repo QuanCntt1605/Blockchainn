@@ -1,0 +1,41 @@
+{
+  "name": "blockchain",
+  "version": "1.0.0",
+  "description": "Warranty Certificate System with MetaMask Integration",
+  "main": "backend.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "backend": "node backend.js",
+    "deploy": "npx hardhat run scripts/deploy-warranty.ts --network sepolia",
+    "compile": "npx hardhat compile"
+  },
+  "keywords": [
+    "blockchain",
+    "warranty",
+    "certificate",
+    "metamask",
+    "nft"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^16.6.1",
+    "ethers": "^6.16.0",
+    "express": "^4.22.2"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-chai-matchers": "^2.0.0",
+    "@nomicfoundation/hardhat-ethers": "^3.1.0",
+    "@types/chai": "^4.3.5",
+    "@types/chai-as-promised": "^7.1.5",
+    "@types/mocha": "^10.0.1",
+    "@types/node": "^20.0.0",
+    "chai": "^4.3.7",
+    "forge-std": "github:foundry-rs/forge-std#v1.9.4",
+    "hardhat": "^2.19.5",
+    "mocha": "^10.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "~5.8.0"
+  }
+}
